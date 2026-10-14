@@ -1,0 +1,29 @@
+{
+  "name": "personal-agent-project",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p . && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lobehub/fluent-emoji": "^4.1.1",
+    "@lobehub/icons": "^5.23.1",
+    "@lobehub/ui": "5.64.2",
+    "antd": "^6.6.6",
+    "antd-style": "^4.1.0",
+    "lucide-react": "^1.57.0",
+    "motion": "^12.43.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
